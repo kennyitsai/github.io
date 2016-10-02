@@ -1,0 +1,170 @@
+.red{
+	color: #ff0100 !important; 
+}
+
+.margin-20{
+	margin: 20px 0;
+}
+.mb-45{
+	margin-bottom: 45px;
+}
+
+.section-content.top{
+	margin-top: -38px;
+	padding: 100px 180px 65px;
+}
+.section-content{
+	padding: 60px 180px;
+}
+.page-title{
+    border-left: 5px solid #ff0100;
+    padding-left: 15px;
+    font-size: 26px;
+    font-weight: bold;
+    line-height: 1;
+    margin-bottom: 45px;
+    margin-left: -20px;
+    color: #151515;
+}
+.page-title span{
+	color: #2d2d2d;
+	font-size: 15px;
+	line-height: 1;
+	font-weight: 400;
+}
+.title-style1{
+	border-top: 2px solid #ff0100;
+	padding-top: 13px;
+	display: inline-block;
+}
+.title-style1 .title{
+    font-size: 20px;
+	margin-bottom: 8px;
+	font-weight: bold
+}
+.title-style1 i{
+	font-size: 23px;
+}
+.title-style2{
+	display: inline-block;
+	margin-bottom: 20px;
+}
+.title-style2 .title-e{
+    font-size: 24px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    color: #ff0100;
+    margin: 0 0 6px 0;
+}
+.title-style2 .title{
+    border-top: 2px solid #ff0100;
+    margin: 0;
+    padding-top: 15px;
+    font-size: 20px;
+    line-height: 22px;
+    font-weight: bold;
+}
+.title-style2 .title span{
+	font-size: 14px;
+	font-weight: normal;
+}
+ul.list-style1{
+    display: inline-block;
+    padding-left: 55px;
+    margin-top: 16px;
+}
+ul.list-style1 li{
+	font-size: 16px;
+	margin-bottom: 5px;
+	color: #333333;
+	list-style-position: outside;
+}
+
+.section-contact{
+	padding: 55px 150px 65px 180px;
+}
+.section-contact .open-time,
+.section-contact .contact{
+	display: inline-block;
+}
+.section-contact .open-time{
+    width: 314px;
+    float: left;
+}
+.section-contact .contact{
+	padding-left: 55px;
+	border-left: 2px solid #333333;
+}
+.section-contact .title{
+	margin-right: 40px;
+	float: left;
+	font-weight: bold;
+	font-size: 25px;
+}
+.section-contact .title h6{
+	font-size: 20px;
+	letter-spacing: 2px;
+	margin: 0;
+    line-height: 30px;
+}
+.section-contact .info{
+	display: inline-block;
+	color: #333333;
+	line-height: 26px;
+	letter-spacing: 2px;
+}
+/*-----Buttins-----*/
+.btn{
+	text-align: center;
+	border: 2px solid #aaa;
+	font-size: 16px;
+	letter-spacing: 2px;
+	width: 100px;
+	height: 32px;
+	line-height: 1.3;
+}
+.btn.send{
+	color: #ff0100;
+	border-color: #ff0100;
+}
+.btn.send:hover{
+	background: #ff0100;
+	color: #fff;
+}
+.btn.reset{
+	color: #898989;
+	border-color: #898989;
+}
+.btn.reset:hover{
+	background: #898989;
+	color: #fff;
+}
+/*-----Fonts Size-----*/
+.font-14{
+	line-height: 24px;
+}
+.font-16{
+	font-size: 16px;
+	line-height: 28px
+}
+/*-----Back To Top-----*/
+a.gotop{
+    text-align: center;
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    z-index: 5000;
+    transition: opacity 0.2s ease-out;
+    opacity: 0;
+}
+a.gotop.show {
+    opacity: 1;
+}
+a.gotop i{
+	background: #454545;
+    border-radius: 50px;
+    color: #fff;
+    padding: 8px 13px;
+    font-size: 25px;
+    line-height: 1.5;
+}
