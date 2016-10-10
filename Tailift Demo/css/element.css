@@ -1,6 +1,9 @@
 .red{
 	color: #ff0100 !important; 
 }
+.italic{
+	font-style: italic !important;
+}
 
 .margin-20{
 	margin: 20px 0;
@@ -148,19 +151,28 @@ ul.list-style1 li{
 	line-height: 28px
 }
 /*-----Back To Top-----*/
-a.gotop{
+a.gotop,
+a.gohome{
     text-align: center;
     position: fixed;
-    bottom: 25px;
-    right: 25px;
     z-index: 5000;
     transition: opacity 0.2s ease-out;
     opacity: 0;
 }
-a.gotop.show {
+a.gotop{
+    bottom: 90px;
+    right: 25px;
+}
+a.gohome{
+	bottom: 25px;
+    right: 25px;
+}
+a.gotop.show,
+a.gohome.show {
     opacity: 1;
 }
-a.gotop i{
+a.gotop i,
+a.gohome i{
 	background: #454545;
     border-radius: 50px;
     color: #fff;

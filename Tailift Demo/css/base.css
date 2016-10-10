@@ -73,16 +73,39 @@ a:hover{
     margin: 0 16px;
 }
 .main-menu ul li a{
-	color: #161616;
+	color: #777777;
 	font-size: 18px;
 	line-height: 1;
 }
 .main-menu ul li a:hover,
 .main-menu ul li a.active{
-    color: #ef4022;
+    font-size: 19px
 }
 .main-menu ul li a.active{
 	font-weight: bold;
+}
+.main-menu ul{
+	padding-left: 0;
+	display: inline-block;
+	margin: 25px 168px 5px;
+}
+.main-menu ul.no-logo li,
+.main-menu ul li{
+	width: 126px;
+	height: 30px;
+	text-align: center;
+}
+.main-menu ul li{
+	margin: 0 3px;
+}
+.main-menu ul.no-logo li{
+    margin: 0 40px;
+}
+.main-menu ul li:first-child{
+    margin-left: 0;
+}
+.main-menu ul li:last-child{
+    margin-right: 0;
 }
 /*-----Footer-----*/
 .footer{
@@ -313,39 +336,19 @@ a:hover{
 	background: #f9f9f9;
 }
 .section-content.pdt .pdt-list{
-	padding: 10px 0;
+	padding: 10px 0 25px;
 	position: relative;
-}
-.section-content.pdt .pdt-list.bg1{
-	background: url(../img/pdt-bg-4.jpg) no-repeat left center;
-}
-.section-content.pdt .pdt-list.bg2{
-	background: url(../img/pdt-bg-5.jpg) no-repeat left center;
-}
-.section-content.pdt .pdt-list.bg3{
-	background: url(../img/pdt-bg-6.jpg) no-repeat left center;
-}
-.section-content.pdt .pdt-list.bg4{
-	background: url(../img/pdt-bg-7.jpg) no-repeat left center;
+	width: 50%;
+	float: left;
 }
 .section-content.pdt .pdt-list.style1{
-	padding: 100px 0 10px;
-	background: url(../img/pdt-bg-3.png) no-repeat 226px 39px;
+	padding: 60px 0 20px;
+	background: url(../img/pdt-bg-3.png) no-repeat;
+	width: 100%;
 }
 .section-content.pdt .pdt-list .title-style3{
-	display: inline-block;
-}
-.section-content.pdt .pdt-list .title-style3.toyota{
-    margin: 0 109px;
-}
-.section-content.pdt .pdt-list .title-style3.nissan{
-    margin: 0 118px 0 109px;
-}
-.section-content.pdt .pdt-list .title-style3.komatsu{
-    margin: 0 86px 0 109px;
-}
-.section-content.pdt .pdt-list .title-style3.nichiyu{
-	margin: 0 103px 0 109px;
+	width: 100%;
+	margin-bottom: 20px;
 }
 .section-content.pdt .pdt-list .title-style3 .title{
 	font-size: 24px;
@@ -355,6 +358,7 @@ a:hover{
 	color: #ff0100;
 	font-weight: 500;
 	margin: 0 0 15px 0;
+	display: inline-block;
 }
 .section-content.pdt .pdt-list .title-style3 .info{
     margin: 0;
