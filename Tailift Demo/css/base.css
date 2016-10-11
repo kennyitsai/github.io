@@ -79,7 +79,7 @@ a:hover{
 }
 .main-menu ul li a:hover,
 .main-menu ul li a.active{
-    font-size: 19px
+    color: #ff0100;
 }
 .main-menu ul li a.active{
 	font-weight: bold;
@@ -208,7 +208,7 @@ a:hover{
 }
 .index-products ul li a{
 	width: 270px;
-	height: 276px;
+	height: 236px;
 	display: block;
 	text-align: center;
 	-webkit-transition: all 0.3s ease-out;
@@ -217,18 +217,6 @@ a:hover{
     -ms-transition: all 0.3s ease-out;
     transition: all 0.3s ease-out;   
 }
-.index-products ul li.ab-bg a:hover{
-	background: url(../img/i-ab-bg.png) top center no-repeat;
-}
-.index-products ul li.tai-bg a:hover{
-	background: url(../img/i-tai-bg.png) top center no-repeat;
-}
-.index-products ul li.pdt-bg a:hover{
-	background: url(../img/i-pdt-bg.png) top center no-repeat;
-}
-.index-products ul li.contact-bg a:hover{
-	background: url(../img/i-con-bg.png) top center no-repeat;
-}
 .index-products ul li a .title{
 	text-align: center;
 	width: 270px;
@@ -236,8 +224,8 @@ a:hover{
 	border-right: 2px solid #fff;
 	display: inline-block;
 	height: 48px;
-	margin: 116px 0;
-	font-size: 19px;
+	margin: 94px 0;
+	font-size: 16px;
 	letter-spacing: 3px;
 	-webkit-transition: all 0.3s ease-out;
     -moz-transition: all 0.3s ease-out;
@@ -246,7 +234,7 @@ a:hover{
     transition: all 0.3s ease-out; 
 }
 .index-products ul li a:hover .title{
-	margin: 112px 0 120px;
+	font-size: 18px;
 	-webkit-transition: all 0.3s ease-out;
     -moz-transition: all 0.3s ease-out;
     -o-transition: all 0.3s ease-out;
@@ -257,9 +245,9 @@ a:hover{
 	border-right: none;
 }
 .index-products ul li a .title-e{
-	margin-top: 8px;
+	margin-top: 5px;
 	display: block;
-	font-size: 15px;
+	font-size: 13px;
 	letter-spacing: 2px;
 }
 /*-----Tailift-----*/
